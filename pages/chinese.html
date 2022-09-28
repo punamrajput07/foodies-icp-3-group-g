@@ -28,10 +28,10 @@
      text-align: center;
      width: 250px;
      height: 350px;
-     background-color: transparent;
+     background-color: white;
      border-radius: 28px;
-     box-shadow: gainsboro 0px 0px 5px 5px;
-     border: 0.5px solid black;
+     box-shadow: rgb(128 116 116) 0px 0px 5px 5px;
+     border: 0.5px solid rgb(170 160 160);
    }
  .img{
      width: 190px;
@@ -54,12 +54,16 @@
     font-weight:bold ;
     font-size: 20px;
     border: solid black 1px;
+    border-radius: 0px 10px 0px 10px;
     background-color: red;
     color: white;
     width:fit-content;
     padding-left: 10px;
     padding-right: 10px;
 
+ }
+ .price:hover{
+    background-color: rgb(180, 25, 25);
  }
 
  
@@ -73,20 +77,20 @@
      
  }
  .card-btn button{
-     border: 2px solid rgb(192, 129, 12);
+     border: 2px solid rgb(218, 147, 16);
      border-radius: 2px;
      width: 150px;
      font-size: 20px;
      padding: 10px;
-     background-color: rgb(192, 129, 12);
+     background-color: rgb(218, 147, 16);
      box-shadow: #ada194 0px 0px 0px 0px;
      border-radius: 15px;
      color:white ;
  }
  /*hover effects*/
 .card-btn button:hover{
-    background-color: white;
-    color: black;
+    background-color: rgb(173, 116, 9);
+    color: white;
     cursor: pointer;
 }
 .card:hover{
@@ -103,7 +107,7 @@
 </head>
 
 
-<body>
+<body style="background-color: rgb(206 206 206);">
     <div class="home-container">
     </div>
 
@@ -114,14 +118,14 @@
 
     <div class="card-container-1">
         <div class="card">
-            <p class="price">  60 ₹</p>
+            <p class="price">  50 ₹</p>
             <div class="card-img"><img src="../images/chinese/soy sauce nodles.webp" class="img"></div>
             <div class="card-txt"><h2>Soy Sauce Noodles</h2></div>
             <div class="card-btn"><button>Order Now</button></div>
         </div>
     
         <div class="card">
-            <p class="price">  60 ₹</p>
+            <p class="price">  40 ₹</p>
             <div class="card-img"><img src="../images/chinese/chow-mein3.jpg" class="img"></div>
             <div class="card-txt"><h2>Chowmein</h2></div>
             <div class="card-btn"><button>Order Now</button></div>
@@ -135,7 +139,7 @@
         </div>
     
         <div class="card">
-            <p class="price"> ₹</p>
+            <p class="price">90 ₹</p>
             <div class="card-img"><img src="../images/chinese/dumpling 2.jpg" class="img"></div>
             <div class="card-txt"><h2>Dumpling</h2></div>
             <div class="card-btn"><button>Order Now</button></div>
@@ -148,25 +152,28 @@
 
    <div class="card-container-1">
     <div class="card">
-        <p class="price">  ₹</p>
+        <p class="price"> 50 ₹</p>
         <div class="card-img"><img src="../images/chinese/dim-sum-platter.jpg" class="img"></div>
         <div class="card-txt"><h2>Dim Sum </h2></div>
         <div class="card-btn"><button>Order Now</button></div>
     </div>
 
     <div class="card">
+        <p class="price">  50 ₹</p>
         <div class="card-img"><img src="../images/chinese/Hot-and-Sour-Soup-4.jpg" class="img"></div>
         <div class="card-txt"><h2>Hot Sour Soup</h2></div>
         <div class="card-btn"><button>Order Now</button></div>
     </div>
 
     <div class="card">
+        <p class="price">  30 ₹</p>
         <div class="card-img"><img src="../images/chinese/Manchow-Soup.png" class="img"></div>
         <div class="card-txt"><h2>Manchow Soup</h2></div>
         <div class="card-btn"><button>Order Now</button></div>
     </div>
 
     <div class="card">
+        <p class="price">  80 ₹</p>
         <div class="card-img"><img src="../images/chinese/mix chowmein.cms" class="img"></div>
         <div class="card-txt"><h2>Mix Chowmein</h2></div>
         <div class="card-btn"><button>Order Now</button></div>
