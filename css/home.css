@@ -106,6 +106,7 @@ body{
         text-decoration: underline;
         transition: 0.2s;
 }
+
 .afternav-cointainer{
     background-image: url(../images/bg-image.jpg);
     background-repeat: no-repeat;
@@ -255,7 +256,7 @@ body{
 .collection a{
     text-decoration: none;
     /* color: white ; */
-    color:black;
+    color:white;
 }
 .box1{
     /* background-color: yellow; */
@@ -610,4 +611,13 @@ body{
 }
 /* .profile-1{
     margi
+} */
+
+/* @media screen and (max-width:600px)
+{
+     .intro-part i{
+        color: red;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+    
 } */
