@@ -564,7 +564,6 @@ html{
 } */
     
 .customer-review{
-    background-color: white;
     height: 300px;
     display: flex;
     justify-content: space-around;
@@ -623,6 +622,7 @@ html{
         flex-wrap: wrap;
         margin: 10px;
      }
+<<<<<<< HEAD
      .collection p{
         text-align: center;
      }
@@ -657,3 +657,64 @@ html{
         text-align: center;
     }
 }
+=======
+    
+} */
+
+
+
+/*new footer by punam*/
+/*
+ .footer{
+    padding: 100px 20px 15px;
+    background-image: linear-gradient(black,rgb(48, 43, 43));
+    background-color: black;
+    color: white;
+  }
+  .footer-logo{
+      width: 100px;
+      margin-top: 5px;
+      margin-bottom: 5x;
+  }
+  .footer h4{
+      text-align: left;
+      margin-top: 15px;
+      margin-bottom: 25px;
+  }
+  .footer p{
+      font-size: 12px;
+      text-align: justify;
+      padding-right: 35px;
+  }
+  .footer .row .fa{
+      padding-right: 20px;
+      font-size: 15px;
+  }
+  .footer hr{
+      margin-top: 10px;
+      background: lightgrey;
+  }
+  .fa-phone-square{
+      
+      color: rgb(53, 150, 53);
+  }
+  .footer .copyright{
+      text-align: center;
+  }
+  .fa-envelope{
+    color: rgb(196, 84, 84);
+  }
+  .fa-home{
+    color: yellowgreen;
+  }
+  .fa-facebook-official{
+    color: blue;
+  }
+  .fa-youtube-play{
+    color: red;
+  }
+  .fa-twitter{
+    color: skyblue;
+  }*/
+  
+>>>>>>> 24a6c22ceecd12b6cbe3a890c17985ff36c86e29
