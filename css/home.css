@@ -253,6 +253,9 @@ body{
     /* border-bottom: 38px; */
     margin-right: 20px;
 }
+html{
+    scroll-behavior: smooth;
+}
 .collection a{
     text-decoration: none;
     /* color: white ; */
@@ -271,7 +274,7 @@ body{
    
 }
 .box1:hover{
-    /* box-shadow: 1px 0px 1px 1px grey; */
+    box-shadow: 1px 0px 2px 1px grey;
     opacity: 1;
     border: 1px solid grey;
 }
@@ -612,12 +615,49 @@ body{
     margi
 } */
 
-/* @media screen and (max-width:600px)
+@media screen and (max-width:600px)
 {
-     .intro-part i{
-        color: red;
-        font-family: Arial, Helvetica, sans-serif;
+     .collection{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
      }
+<<<<<<< HEAD
+     .collection p{
+        text-align: center;
+     }
+     .customer-review{
+        display: flex;
+        flex-wrap: wrap;
+     }
+    .footer-part{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        font-size: 20px;
+        margin-top: 400px;
+    }
+    .bg-image{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
+        color: red;
+    }
+        .navbar{
+            display: flex;
+            width: 100%;
+            /* display: block; */
+            /* flex-direction: column; */
+            /* flex-wrap: wrap; */
+        }
+    .heading{
+        margin-left: 50px;
+        width: 400px;
+        text-align: center;
+    }
+}
+=======
     
 } */
 
@@ -677,3 +717,4 @@ body{
     color: skyblue;
   }*/
   
+>>>>>>> 24a6c22ceecd12b6cbe3a890c17985ff36c86e29
