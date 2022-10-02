@@ -11,12 +11,13 @@
   
    <style>
      .login-form{
-         border: 1px solid black;
+         /* border: 1px solid black; */
          width:25%;
          margin-left:37%;
          margin-top:7%;
          margin-bottom: 5%;
-         height: 450px;
+         height: 500px;
+         padding-top: 20px;
          background-color: white;
          border-radius:20px;
          box-shadow: 2px 2px 6px 2px #bfbfbf;
@@ -30,10 +31,13 @@
          
       }
       input{
-         padding: 3px;
+         padding: 10px;
          width: 200px;
+         font-size: 15px;
       }
-
+        input::placeholder{
+         font-size: 17px;
+        }
       .login-heading{
          margin-bottom: 10px;
          color:red;
@@ -43,13 +47,13 @@
 
       
       .user-field{
-         font-size: 17px;
+         font-size: 20px;
          margin-bottom: 20px;
          margin-left:70px;
          line-height: 10px;
           }
       .pwd-field{
-         font-size: 17px;
+         font-size: 20px;
          margin-bottom: 10px;
          margin-left:70px;
          line-height: 10px;
@@ -58,7 +62,7 @@
          margin-top:13px;
          margin-bottom: 20px;
          margin-left:200px;
-         font-size: 15px;
+         font-size: 17px;
       }
       .login-button{
          display: flex;
@@ -68,6 +72,7 @@
       .fb-g-tw-icons{
          display: flex;
          height: 35px;
+         margin-top: 25px;
          margin-left: 90px;
       }
       .google-size{
@@ -78,26 +83,19 @@
       }
 
       .log-btn{
-         color:black;
-         border:1px solid black;
-         font-size: 20px;
-         width:150px;
-         border-radius: 0 10px 0 10px;
-         margin-left:85px;
-         transition: 1s;
-         background-color: #a19494;
-         padding: 5px;
+            background-color: red;
+            width: 100px;
+            padding: 10px;
+            margin-left: 100px;
+            cursor: pointer;
+            font-size: 17px;
+            border: none;
+            border-radius: 10px;
+            color: white;
 
       }
       .log-btn:hover{
-       border:1.5px solid black;
-       border-radius: 2px;
-       width:150px;
-       font-size: 20px;
-       background-color: black;
-       box-shadow:#ada194 0px 0px 0px 0px;
-       border-radius: 15px;
-       color: white;
+             
       }
 
       .sign-font{
@@ -106,7 +104,7 @@
          margin-left:100px;
       }
       .for-height{
-         margin-top:50px;
+         margin-top:30px;
          line-height: 3px;
       }
       .facebook-size{
