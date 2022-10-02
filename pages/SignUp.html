@@ -43,7 +43,7 @@
             display: block;
             box-shadow: 1px 1px 1px 1px gray;
             border-radius: 14px;
-            background:pink;
+            background:rgb(218, 211, 211);
 
            }
 
@@ -59,18 +59,18 @@
         .sign-up-form h1{
             margin:0;
             padding:0 0 20px;
-            color:#732673;
+            color:black;
             text-align: center;
             text-transform:uppercase;
             margin-top:60px;
-            font-family: 'Anton', sans-serif;
+            font-family: sans-serif;
            
         }
         .sign-up-form p{
             margin: 0;
             padding: 0;
-            font-weight: bold;
-            color:#fff;
+            font-family: sans-serif;
+            color:black;
         }
         .sign-up-form input{
             width:80%;
@@ -81,11 +81,12 @@
         .sign-up-form input[type=email],
         .sign-up-form input[type=password]{
            border:none;
+           
            border-bottom:1px solid #fff;
-           background: transparent;
+           background: none;
            outline:none;
            height: 40px;
-           color:#fff;
+           color:black;
            font-size: 15px;
         }
 
@@ -144,16 +145,16 @@
          <img class="icon" src="./../images/sign-up-logo.png"/>
          <h1>Sign Up Form</h1>
          <form action="">
-            <p>full name</p>
+            <p>Full name</p>
             <input type="email" placeholder="enter your name">
             
-            <p>Email</p>
+            <p>Gmail </p>
             <input type="email" placeholder="Enter Email"required/>
              
             <p>Password</p>
             <input type="password" placeholder="Enter Password">
-            <p class="checkboxes"><input type="checkbox">by clicking the sign-up ,you agree to our <a href="#">terms and conditions</a> and <a href="#">policy and privacy.</a></p>
-             <p><input type="submit" value="create account"></p> 
+           <!-- <p class="checkboxes"><input type="checkbox">by clicking the sign-up ,you agree to our <a href="#">terms and conditions</a> and <a href="#">policy and privacy.</a></p>-->
+             <p><input type="submit" value="Create account"></p> 
              <h6 class="or">_______________or_______________</h6>
              <p><button class="button2">continue with google</button></p> 
             <p class="account">already have an account?</p><i class="login-italic"><a href="#">login</a></i>

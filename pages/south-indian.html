@@ -33,17 +33,18 @@
     }
     .heading{
         
-        
-        background-color: rgb(34, 41, 39);
-        
-        
-
+    background-color: none;
+    
     }
+    
     .head-txt{
         text-align: center;
         margin-top: 50px;
-        color: white;
+        color: black;
 
+    }
+    .head-txt:hover{
+        
     }
     .card-container-1{
         display: flex;
@@ -90,8 +91,8 @@
 
  }
  .price:hover{
-    background-color: black;
-    color: white;
+    background-color: rgb(213, 216, 33);
+    color: black;
  }
  .card-btn{
      
@@ -103,27 +104,40 @@
      
  }
  .card-btn button{
-     border: 2px solid black;
+     border: 1px solid black;
      border-radius: 2px;
      width: 150px;
      font-size: 20px;
      padding: 10px;
-     background-color:#641430;
+     background-color:#a01f4c;
      box-shadow: #ada194 0px 0px 0px 0px;
      border-radius: 30px;
      color:white ;
  }
  /*hover effects*/
 .card-btn button:hover{
-    background-color:;
-    border: 2px solid ;
-    color: ;
+    background-color:#641430;
+    border: 1px solid black ;
+    color:white ;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: none;
 }
 .card:hover{
     box-shadow:  rgb(83, 69, 69) 0px 0px 4px 1px;
     
+}
+.back{
+    border: 1px solid black;
+     border-radius: 2px;
+     width: 150px;
+     font-size: 20px;
+     padding: 10px;
+     background-color:rgba(206, 194, 31, 0.966);
+     box-shadow: #ada194 0px 0px 0px 0px;
+     border-radius: 30px;
+     color:white ;
+     
+
 }
 
 
@@ -133,14 +147,15 @@
 
 
 <body style="background-color: rgba(206, 206, 206, 0.521);">
-    <div class="home-container">
+   
+    <!--<div class="home-container">
         <div class="left">
 
         </div>
 
         <div class="right">
 
-        </div>
+        </div>-->
 
     </div><br><br>
 
@@ -353,7 +368,9 @@
     <div class="card-btn"><button>Order Now</button></div>
 </div>
 
-</div><br><br><br>
+</div><br><br><br><br><br><br>
+
+<div class="back"><span>Back to home</span></div>
     
 
 </body>
