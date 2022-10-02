@@ -38,10 +38,10 @@
             transform:translate(-50%,-50%);
             width:350px;
             height: 550px;
-            border:1px solid black;
+            border:1px solid rgb(179, 174, 174);
             padding-left:30px;
             display: block;
-            box-shadow: 1px 1px 1px 1px gray;
+            box-shadow: 0px 0px 5px 2px rgb(153, 149, 149);
             border-radius: 14px;
             background:rgb(218, 211, 211);
 
@@ -56,14 +56,15 @@
             top:calc(-80px/2);
             left:calc(50% - 40px);
            }
-        .sign-up-form h1{
+        .sign-up-form h2{
             margin:0;
             padding:0 0 20px;
             color:black;
             text-align: center;
-            text-transform:uppercase;
+            text-transform:none;
             margin-top:60px;
             font-family: sans-serif;
+            
            
         }
         .sign-up-form p{
@@ -143,18 +144,18 @@
 <body>
     <div class="sign-up-form">
          <img class="icon" src="./../images/sign-up-logo.png"/>
-         <h1>Sign Up Form</h1>
+         <h2>Create an account</h2>
          <form action="">
             <p>Full name</p>
-            <input type="email" placeholder="enter your name">
+            <input type="text" placeholder="enter your name">
             
             <p>Gmail </p>
-            <input type="email" placeholder="Enter Email"required/>
+            <input type="email" placeholder="Enter Email"/>
              
             <p>Password</p>
             <input type="password" placeholder="Enter Password">
            <!-- <p class="checkboxes"><input type="checkbox">by clicking the sign-up ,you agree to our <a href="#">terms and conditions</a> and <a href="#">policy and privacy.</a></p>-->
-             <p><input type="submit" value="Create account"></p> 
+             <p><a href="/index.html"></a><input type="submit" value="Create account"></a></p> 
              <h6 class="or">_______________or_______________</h6>
              <p><button class="button2">continue with google</button></p> 
             <p class="account">already have an account?</p><i class="login-italic"><a href="#">login</a></i>
