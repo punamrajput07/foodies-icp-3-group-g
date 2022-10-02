@@ -105,7 +105,7 @@
     color: white;
     font-size: 15px;
     font-weight: bold;
-    background-color: #34abeb;
+    background-color: #a01f4c;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -113,8 +113,8 @@
 }
 .info button:hover{
     background-color: white;
-    border: 1px #34abeb solid ;
-    color: #34abeb;
+    border: 1px #a01f4c solid ;
+    color: #a01f4c;
 }
 .btnback{
     position: absolute;
@@ -122,7 +122,7 @@
     left:85%;
     padding: 10px;
     font-size: 17px;
-    background-color: #34abeb;
+    background-color: #a01f4c;
     border: none;
     border-radius: 8px;
     color: white;
