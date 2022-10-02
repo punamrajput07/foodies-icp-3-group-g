@@ -253,6 +253,9 @@ body{
     /* border-bottom: 38px; */
     margin-right: 20px;
 }
+html{
+    scroll-behavior: smooth;
+}
 .collection a{
     text-decoration: none;
     /* color: white ; */
@@ -271,7 +274,7 @@ body{
    
 }
 .box1:hover{
-    /* box-shadow: 1px 0px 1px 1px grey; */
+    box-shadow: 1px 0px 2px 1px grey;
     opacity: 1;
     border: 1px solid grey;
 }
@@ -412,7 +415,7 @@ body{
     
 }
 .footer-part{
-    background-color:black;
+    background-color:#6b6b47;
     display: flex;
     justify-content: space-around;
     
@@ -561,6 +564,7 @@ body{
 } */
     
 .customer-review{
+    background-color: white;
     height: 300px;
     display: flex;
     justify-content: space-around;
@@ -612,68 +616,44 @@ body{
     margi
 } */
 
-/* @media screen and (max-width:600px)
+@media screen and (max-width:600px)
 {
-     .intro-part i{
-        color: red;
-        font-family: Arial, Helvetica, sans-serif;
+     .collection{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
      }
-    
-} */
-
-
-
-/*new footer by punam*/
-/*
- .footer{
-    padding: 100px 20px 15px;
-    background-image: linear-gradient(black,rgb(48, 43, 43));
-    background-color: black;
-    color: white;
-  }
-  .footer-logo{
-      width: 100px;
-      margin-top: 5px;
-      margin-bottom: 5x;
-  }
-  .footer h4{
-      text-align: left;
-      margin-top: 15px;
-      margin-bottom: 25px;
-  }
-  .footer p{
-      font-size: 12px;
-      text-align: justify;
-      padding-right: 35px;
-  }
-  .footer .row .fa{
-      padding-right: 20px;
-      font-size: 15px;
-  }
-  .footer hr{
-      margin-top: 10px;
-      background: lightgrey;
-  }
-  .fa-phone-square{
-      
-      color: rgb(53, 150, 53);
-  }
-  .footer .copyright{
-      text-align: center;
-  }
-  .fa-envelope{
-    color: rgb(196, 84, 84);
-  }
-  .fa-home{
-    color: yellowgreen;
-  }
-  .fa-facebook-official{
-    color: blue;
-  }
-  .fa-youtube-play{
-    color: red;
-  }
-  .fa-twitter{
-    color: skyblue;
-  }*/
-  
+     .collection p{
+        text-align: center;
+     }
+     .customer-review{
+        display: flex;
+        flex-wrap: wrap;
+     }
+    .footer-part{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        font-size: 20px;
+        margin-top: 400px;
+    }
+    .bg-image{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
+        color: red;
+    }
+        .navbar{
+            display: flex;
+            width: 100%;
+            /* display: block; */
+            /* flex-direction: column; */
+            /* flex-wrap: wrap; */
+        }
+    .heading{
+        margin-left: 50px;
+        width: 400px;
+        text-align: center;
+    }
+}
