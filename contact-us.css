@@ -1,0 +1,116 @@
+html{
+  background-color: rgb (255, 255, 255)  ;
+   height: 100vh;  
+  display: flex;  
+  align-items:right;  
+  justify-content: center; 
+
+
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 90%;
+    padding: 12px;
+    border: 2px solid black;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 20px;
+  }
+  
+  input[type=submit] {
+    background-color:green;
+    color:rgb(206 206 206);
+    padding: 12px 20px;
+    border: 2px black;
+    cursor: pointer;
+    font-size:26px ;
+    border-radius: 20px;
+    margin-top: 60px;
+  }
+  
+  input[type=submit]:hover {
+    background-color:white;
+  }
+  
+  .container {
+    border-radius: 10px;
+    padding: 10px;
+
+    
+
+  
+    
+    
+  }
+  
+  .column {
+    float:right;
+    width: 60%;
+    height: 80%;
+    padding: 15px;
+    font-size: 25px;
+    height: 100%;
+    align-content: center;
+    background-color: rgb (255, 255, 255) ;
+    margin-right: 65px;
+
+
+    
+
+  }
+
+  .row:after {
+    content: "center";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  
+  .iframe{
+    width: 100%;
+    margin-bottom: 10px;
+    
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    margin-right: 200px;
+    background-color:#f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url(https://image.freepik.com/free-photo/delicious-healthy-asian-food-white-background_24972-1026.jpg);
+}
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1;
+
+  }
+  .row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.img{
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(162, 19, 19, 0.2); /* this adds the "card" effect */
+  border: 1px;
+  width: 100%;
+
+
+}
+ 
+  
