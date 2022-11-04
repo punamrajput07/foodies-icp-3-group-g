@@ -4,178 +4,69 @@
 <head>
 
     <title>Payment</title>
-    <link rel="stylesheet" href="payment.css">
     <script src="https://kit.fontawesome.com/cf8e2afea6.js" crossorigin="anonymous"></script>
 
     
-      <style>body {
-        font-family: 'Roboto', sans-serif!important;
-        margin:0;
-        padding:0;
-        box-sizing: border-box;
-    }
-    
-    .mainscreen
-    {
-        min-height: 100vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        background:white;
-        
-        color:#030303;
-    }
-    
-    .card {
-        width: 500px;
-        margin: auto;
-        background:rgb(172, 168, 168);
-        position:center;
-        align-self: center;
-        top: 50rem;
-        border-radius: 0px;
-        box-shadow: 4px 3px 20px #3535358c;
-        display:flex;
-        flex-direction: row;
-        
-    }
-    
-    
-    .product {
-        object-fit: cover;
-        width: 20em;
-        height: 20em;
-        border-radius: 100%;
-    }
-    
-    .rightside {
-        background-color: rgb(172, 168, 168);
-        width: 35rem;
-        border-bottom-right-radius: 1.5rem;
-        border-top-right-radius: 1.5rem;
-        padding: 1rem 2rem 3rem 3rem;
-    }
-    
-    p{
-        display:block;
-        font-size: 1.1rem;
-        font-weight: 400;
-        margin: .8rem 0;
-    }
-    
-    .inputbox
-    {
-        color:#030303;
-        width: 100%;
-        padding: 0.5rem;
-        border: none;
-        border-bottom: 1.5px solid #ccc;
-        margin-bottom: 1rem;
-        border-radius: 0.3rem;
-        font-family: 'Roboto', sans-serif;
-        color: #615a5a;
-        font-size: 1.1rem;
-        font-weight: 500;
-      outline:none;
-    }
-    
-    .expcvv {
-        display:flex;
-        justify-content: space-between;
-        padding-top: 0.6rem;
-    }
-    
-    .expcvv_text{
-        padding-right: 1rem;
-    }
-    .expcvv_text2{
-        padding:0 1rem;
-    }
-    
-    .button{
-        background: #a01f4c;
-        padding: 15px;
-        border: 1px black solid;
-        border-radius: 50px;
-        color: white;
-        font-weight: 400;
-        font-size: 1.2rem;
-        margin-top: 10px;
-        width:200px;
-        outline:none;
-    }
-    
-    .button:hover
-    {
-        background-color: #641430;
-        color: white;
-        border: 1px solid black;
-    }
-    
-    @media only screen and (max-width: 1000px) {
-        .card{
-            flex-direction: column;
-            width: auto;
-          
-        }
-    
-        .leftside{
-            width: 100%;
-            border-top-right-radius: 0;
-            border-bottom-left-radius: 0;
-          border-top-right-radius:0;
-          border-radius:0;
-        }
-    
-        .rightside{
-            width:auto;
-            border-bottom-left-radius: 1.5rem;
-            padding:0.5rem 3rem 3rem 2rem;
-          border-radius:0;
-        }
-    }</style>
-</head>
+<style>
+.main-container{
+    border: 1px red solid;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.sec-container{
+    margin-top: 150px;
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.btn{
+     
+     padding: 0px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 0px;
+     
+     
+ }
+ .btn{
+     border: 1px solid black;
+     border-radius: 2px;
+     width: 150px;
+     font-size: 20px;
+     padding: 10px;
+     background-color:#a01f4c;
+     box-shadow: #ada194 0px 0px 0px 0px;
+     border-radius: 30px;
+     color:white ;
+ }
+</style>
+</head> 
 
 <body>
-    <div class="mainscreen">
-     
-        <div class="card">
-          <div class="leftside">
-            
-          </div>
-          <div class="rightside">
-            <form action="">
-              <h1>Place your oder here</h1>
-              
-              <p>Card holder Name</p>
-              <input type="text" class="inputbox" name="name"  />
-              <p>Card Number</p>
-              <input type="number" class="inputbox" name="card_number" id="card_number" />
-  
-              <p>Card Type</p>
-              <select class="inputbox" name="card_type" id="card_type" >
-                <option value="">--Select a Card Type--</option>
-                <option value="Visa">Visa</option>
-                <option value="RuPay">RuPay</option>
-                <option value="MasterCard">MasterCard</option>
-              </select>
-  <div class="expcvv">
-  
-              <p class="expcvv_text">Expiry</p>
-              <input type="date" class="inputbox" name="exp_date" id="exp_date" />
-  
-              <p class="expcvv_text2">CVV</p>
-              <input type="password" class="inputbox" name="cvv" id="cvv"  />
-          </div>
-              
-              <div><a href="/index.html"><button type="submit" class="button">Order Now</button></a></div>
-            
+    <div class="main-container">
+        <div class="sec-container">
+            <form>
+                <p>Card holder name</p>
+                <input type="text" name="card holder name" placeholder="Enter Name">
+                <p>Card Number</p>
+                <input type="text" name="card number">
+                <p>Card type</p>
+             <select>
+                <option value="">select your card type</option>
+                <option value="">Debit Card</option>
+                <option value="">Credit Card</option>
+                <option value="">Visa card</option>
+             </select><br><br><br>
+             <button class="btn">Place Order</button>
             </form>
-          </div>
         </div>
-      </div>
-    
-  
+        
+    </div>
 </body>
 
 </html>
